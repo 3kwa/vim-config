@@ -1,7 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
-let g:netrw_dirhist_1='/opt/local/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/site-packages/lxml/html'
-let g:netrw_dirhist_2='/Users/eugene/Documents/Dev/parlorama/code'
-let g:netrw_dirhist_3='/Users/eugene/Documents/Dev/parlorama/code/fr'
-let g:netrw_dirhist_4='/Users/eugene/Documents/Dev/parlorama/code'
-let g:netrw_dirhist_5='/Users/eugene/Desktop/scaffolding'
