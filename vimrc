@@ -61,8 +61,9 @@ set wrap
 set linebreak
 set textwidth=0
 " set formatoptions=qrn1
-set colorcolumn=80
-
+if has("gui_running")
+    set colorcolumn=80
+endif
 
 " global substitution i.e. g not required in :%s/foo/bar/
 set gdefault
