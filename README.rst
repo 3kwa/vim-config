@@ -9,9 +9,9 @@ I clone this repository::
 
     git clone https://github.com/3kwa/vim-config.git .vim
 
-Then create a symbolic link to the ''vimrc'' file::
+Then create a symbolic link to the ``vimrc`` file::
 
-ln -s ~/.vim/vimrc ~/.vimrc
+    ln -s ~/.vim/vimrc ~/.vimrc
 
 And I am set!
 
