@@ -94,8 +94,9 @@ autocmd FileType javascript set omnifunc=javascriptcomplete#CompleteJS
 autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
 autocmd FileType css set omnifunc=csscomplete#CompleteCSS
 
-" pylint
+" pylint (not on write)
 autocmd FileType python compiler pylint
+let g:pylint_onwrite = 0
 
 " jslint
 au FileType javascript set makeprg=jslint\ %
