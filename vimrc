@@ -100,3 +100,6 @@ let g:pylint_onwrite = 0
 
 " jslint
 au FileType javascript set makeprg=jslint\ %
+
+" NERDTree ignore
+let NERDTreeIgnore=['\.pyc']
